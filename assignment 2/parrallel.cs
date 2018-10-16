@@ -102,6 +102,12 @@ namespace assignment_2
                 button1.Show();
             }
         }
-        
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var newForm = new Form1();
+            newForm.Show();
+        }
     }
 }
