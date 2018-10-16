@@ -15,6 +15,7 @@ namespace assignment_2
         public Form1()
         {
             InitializeComponent();
+            comboBox1.SelectedIndex = 0;
         }
 
         private void button1_Click(object sender, EventArgs e)
