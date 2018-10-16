@@ -13,17 +13,20 @@ namespace assignment_2
     public partial class parrallel : Form
     {
         public parrallel()
+        // program starts off showing part 0
         {
             InitializeComponent();
             comboBox1.SelectedIndex = 0;
         }
 
         private void button1_Click(object sender, EventArgs e)
+        // try catch and assigning different amounts of resistors in the comboBox 
         {
             try
             {
                 double Rt = 0;
 
+                // the formula for finding the total resitance
                 if (comboBox1.SelectedIndex == 0)
                 {
                     double R1 = Convert.ToDouble(textBox1.Text);
@@ -57,6 +60,7 @@ namespace assignment_2
                 }
                 label1.Text = "the answer is " + Rt;
             }
+            // show a message to inform the user they've done something wrong
             catch
             {
                 MessageBox.Show("tiz broken");
@@ -65,6 +69,7 @@ namespace assignment_2
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        // hides and shoes different features at different points
         {
             if (comboBox1.SelectedIndex == 0)
             {
@@ -112,6 +117,7 @@ namespace assignment_2
         }
 
         private void button2_Click(object sender, EventArgs e)
+        // a button to take the user to the series section
         {
             this.Hide();
             var newForm = new Form1();

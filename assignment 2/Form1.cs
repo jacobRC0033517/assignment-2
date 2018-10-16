@@ -20,7 +20,7 @@ namespace assignment_2
         }
 
         private void button1_Click(object sender, EventArgs e)
-            // try catch and assigning different amounts of resistors to the comboBox 
+            // try catch and assigning different amounts of resistors in the comboBox 
         {
             try
             {
