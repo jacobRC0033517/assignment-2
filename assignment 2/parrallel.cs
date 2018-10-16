@@ -117,5 +117,10 @@ namespace assignment_2
             var newForm = new Form1();
             newForm.Show();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
