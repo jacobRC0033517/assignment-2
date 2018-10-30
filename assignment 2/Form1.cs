@@ -55,7 +55,7 @@ namespace assignment_2
                     double R5 = Convert.ToDouble(textBox5.Text);
                     Rt = R1 + R2 + R3 + R4 + R5;
                 }
-                label1.Text = "the answer is " + Rt;
+                label1.Text = "the answer is " + Rt.ToString("0.00");
             }
             catch
             {
