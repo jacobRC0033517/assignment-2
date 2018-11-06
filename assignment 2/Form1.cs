@@ -69,7 +69,7 @@ namespace assignment_2
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-            // hides and shoews different features at different points
+            // hides and shows different features at different points
         {
             if (comboBox1.SelectedIndex == 0)
             {
